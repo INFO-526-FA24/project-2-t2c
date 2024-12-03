@@ -1,87 +1,59 @@
-# README: Visualizing Kenyan and Global Health Trends (1990-2019)
+# Project Proposal: Visualizing Brexit and Its Impacts
 
-## Project Overview
+## Overview
 
-This project aims to create a comprehensive and interactive visualization of Kenyan and global health statistics from 1990 to 2019. By analyzing and comparing trends in population demographics, mental health (suicide and anxiety disorders), critical disease mortality, alcohol/substance use, and gender-specific patterns, we hope to uncover actionable insights for public health, policymaking, and education.
+This project aims to create a comprehensive and visually engaging analysis of Brexit-related data to better understand the referendum's impact on the UK's population, regional voting patterns, well-being, and current issues. The project will use both interactive and static visualizations to illustrate how Brexit has affected different aspects of society in the UK, including anxiety levels, well-being, voting patterns, and current public discourse.
 
-The project combines data storytelling with technical analysis, providing accessible and meaningful insights for students, researchers, policymakers, and the general public.
+## Goals and Motivation
 
-------------------------------------------------------------------------
+The primary goal of this project is to visualize the impact of Brexit by focusing on critical aspects such as:
+- Voting patterns and population density
+- Well-being and anxiety levels across regions
+- Current issues around Brexit
 
-## Project Goals
-
-1.  **Analyze Key Health Metrics:**
-
-    -   Suicide rates\
-    -   Critical disease mortality (e.g., cardiovascular disease, cancer, diabetes)\
-    -   Alcohol and substance use trends\
-    -   Anxiety disorder prevalence
-
-2.  **Compare Kenyan and Global Trends:**\
-    Focus on differences in trends over time and between genders.
-
-3.  **Explore Population Demographics:**
-
-    -   Investigate population growth and age distribution.\
-    -   Examine implications for labor force potential.
-
-4.  **Identify Socio-Economic and Cultural Drivers:**\
-    Correlate observed health trends with relevant socio-economic and cultural factors.
-
-------------------------------------------------------------------------
+The motivation for this project is to provide clear and insightful data visualizations that inform the general public, policymakers, and researchers about the effects of Brexit on the UK's social and political landscape. The project uses data storytelling to deliver a compelling message about Brexit's consequences.
 
 ## Data Sources
 
--   **Kenyan Population Data (1990-2019):** Includes age distribution and growth metrics.
--   **Global and Kenyan Suicide Rates Data (2000-2019):** Gender-disaggregated suicide rates over time.
--   **Mortality Data for Critical Diseases (2000-2016):** Death probabilities from cardiovascular disease, cancer, diabetes, and chronic respiratory diseases.
--   **Alcohol and Substance Use Data (1990-2019):** Global and Kenyan trends in alcohol and substance use prevalence.
--   **Anxiety Disorder Prevalence Data (1990-2019):** Gender-specific prevalence rates globally and in Kenya.
+The project uses several datasets to provide regional and temporal insights:
+1. **Population Density Data**: Population density by region within the United Kingdom.
+2. **Voter Turnout Data by Region**: Voter turnout percentages across regions during the Brexit referendum, categorized by support for Leave or Remain.
+3. **Region Vote Data**: Flow of votes (Leave or Remain) for each region, enabling analysis of voting proportions.
+4. **Anxiety Levels Data (2012-2018)**: Tracks anxiety levels in different parts of the UK (Wales, Scotland, England, Northern Ireland) to evaluate changes in well-being after the referendum.
+5. **Well-Being Data**: Metrics such as life satisfaction, happiness, and anxiety, assessed across different regions, to analyze the impact of Brexit.
+6. **Age Support Data**: Voting patterns by age group, highlighting which age groups had the highest support for Leave or Remain.
+7. **Brexit Issues Data**: Prominent topics from Financial Times headlines related to Brexit (January - March 2020).
 
-------------------------------------------------------------------------
+## Key Questions and Visualizations
 
-## Key Questions Addressed
+1. **What is the population density of the United Kingdom?**
+   - **Visualization**: A map of the United Kingdom using a gradient scale to represent population density, where darker shades indicate higher density.
 
-1.  **Suicide Trends:**
-    -   How have suicide rates evolved globally and in Kenya (2000-2019)?\
-    -   What are the gender-specific differences?
-2.  **Mortality from Critical Diseases:**
-    -   How do mortality probabilities for diseases differ between Kenya and global populations?
-3.  **Alcohol and Substance Use Trends:**
-    -   What are the differences in trends between Kenya and the global average?\
-    -   What implications do these trends have on public health?
-4.  **Anxiety Disorder Prevalence:**
-    -   How does anxiety disorder prevalence differ by gender in Kenya and globally?
-5.  **Population Growth and Workforce Potential:**
-    -   How has population growth and age distribution impacted Kenya's labor force potential compared to global trends?
-6.  **Socio-Economic and Cultural Drivers:**
-    -   What socio-economic and cultural factors explain health disparities between genders and regions?
+2. **What is the voter turnout by region?**
+   - **Visualization**: A bar graph displaying voter turnout for each region, categorized by the proportion of votes supporting the EU referendum (Leave or Remain).
 
-------------------------------------------------------------------------
+3. **How did each region vote?**
+   - **Visualization**: A Sankey diagram showing the flow of votes (Leave or Remain) from each region, with the thickness of lines representing the proportion of votes.
 
-## Project Structure
+4. **Has personal well-being been impacted in areas voting Remain now that the UK is leaving the EU?**
+   - **Visualization**: A line graph depicting anxiety levels in the UK from 2012 to 2018, divided by different countries (Wales, Scotland, England, and Northern Ireland). Additionally, multiple line graphs display metrics such as life satisfaction, feeling that life is worthwhile, happiness, and anxiety, assessed across regions.
 
-### 1. **Data Preparation**
+5. **Was vote choice influenced by age?**
+   - **Visualization**: Bar graphs showing age groups with the highest support for Leave and Remain.
 
--   Cleaning and preprocessing datasets.
--   Formatting and integrating global and Kenyan-specific datasets.
--   Handling missing values and ensuring consistency across years and categories.
+6. **What are the issues around Brexit today?**
+   - **Visualization**: A word cloud generated from Financial Times headlines (January - March 2020), highlighting prominent topics such as "trade," "talks," "immigration," and political figures like "Boris Johnson."
 
-### 2. **Exploratory Data Analysis (EDA)**
+## Weekly Plan
 
--   Visualizing initial trends using histograms, line plots, and bar charts.
--   Identifying key patterns and anomalies in the data.
-
-### 3. **Visualization**
-
--   **Tools:** `ggplot2`, `plotly`, `matplotlib`, `seaborn`, `Tableau` (optional).
--   Create interactive visualizations for trends, patterns, and comparisons:
-    -   Time-series plots for suicide rates, substance use, and anxiety.
-    -   Population pyramids and distribution charts.
-    -   Scatter plots and correlation matrices for socio-economic factors.
-
-### 4. **Analysis and Insights**
-
--   Gender-based analysis of trends.
--   Regional comparisons between Kenya and global averages.
--   Contextualizing findings with socio-economic and cultural insights.
+| **Task Name**                         | **Status**    | **Assignee** | **Due**   | **Priority** | **Summary**                                                                                      |
+|---------------------------------------|--------------|--------------|-----------|--------------|--------------------------------------------------------------------------------------------------|
+| **Dataset Collection and Cleaning**   | Done         | Team         | Week 1    | High         | Gather all necessary datasets, clean and preprocess them for analysis.                           |
+| **Exploratory Data Analysis (EDA)**   | Done         | Team         | Week 2    | High         | Conduct an initial analysis to understand data trends, relationships, and outliers.              |
+| **Data Visualization Planning**       | Done         | Team         | Week 3    | Moderate     | Outline and sketch visualizations to illustrate key trends and insights.                         |
+| **Create Initial Visualizations (Static)** | Done    | Team         | Week 4    | Moderate     | Use ggplot2 to create static visualizations for the identified trends.                           |
+| **Interactive Visualization Development** | Done    | Team         | Week 5-6  | High         | Develop interactive and animated visualizations using Shiny or Plotly for deeper exploration.    |
+| **Gender and Regional Analysis Visualizations** | Done | Team     | Week 7    | Moderate     | Create focused visualizations showing gender-specific and regional trends for each dataset.      |
+| **Final Visualization Refinement and Testing** | Done  | Team     | Week 8    | High         | Refine visuals for clarity, interactivity, and aesthetics. Test for accuracy and usability.      |
+| **Report Writing and Documentation**  | Done         | Team         | Week 9    | Moderate     | Compile findings into a well-documented report, including descriptions of methodologies.         |
+| **Project Presentation Preparation**  | Done         | Team         | Week 10   | High         | Prepare a presentation of findings, including visual aids and an overview of key insights.       |
